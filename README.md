@@ -12,10 +12,11 @@ Pre-requisites : Docker , Ollama , Mistral LLM
 Command to run this app : 
 
 To Install Local Ollama LLM Server:
+
 brew install ollama 
 
 LLM : 
+
 ollama pull mistral
 
-Run this from VS Code terminal : 
 docker compose up -d 
