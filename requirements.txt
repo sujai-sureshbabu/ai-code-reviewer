@@ -1,0 +1,5 @@
+#Dockerfile picks up the requirements.txt file
+# to install the necessary Python packages.
+# This file is used to build the Docker image for the application.
+streamlit
+requests
