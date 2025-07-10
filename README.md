@@ -1,22 +1,35 @@
-This Is AI Code reviewer built using 
 
-Python
-Streamlit 
-Ollama
-Mistral
+# AI Code Reviewer
 
-This can review code and provide suggestions with UI
+An AI-powered code reviewer with a user-friendly UI, built using:
 
-Pre-requisites : Docker , Ollama , Mistral LLM 
+- Python
+- Streamlit
+- Ollama
+- Mistral LLM
 
-Command to run this app : 
+## Features
 
-To Install Local Ollama LLM Server:
+- Automated code reviews
+- Suggestions for improvements
+- Simple UI for interaction
 
-brew install ollama 
+## Prerequisites
 
-LLM : 
+- Docker
+- Ollama
+- Mistral LLM
 
-ollama pull mistral
+## Installation
 
-docker compose up -d 
+1. Install the local Ollama LLM server:
+   ```sh
+   brew install ollama
+2. Pull mistral
+   ```sh
+   ollama pull mistral
+
+3. Start the app:
+   ```sh
+   docker compose up -d
+   
